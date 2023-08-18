@@ -1,0 +1,119 @@
+body {
+  background-color: #f5f3ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Clear Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 72px;
+  line-height: 0.8;
+  color: #776E65;
+  margin: 10px 0;
+}
+
+.container {
+  width: 500px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 456px;
+  height: 456px;
+  background-color: #BBADA0;
+  border: 7px solid #BBADA0;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #EEE4DA;
+  color: #776E65;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.4;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.result-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.result-text {
+  font-size: 18px;
+  color: #4CAF50;
+  display: block;
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.score-title {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#score {
+  font-size: 30px;
+}
+
+#restart-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.result-text {
+  font-size: 18px;
+  color: #4CAF50;
+  margin-top: 20px;
+  display: block;
+}
+
+.highlight {
+  color: #FF5722;
+}
+
