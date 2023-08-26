@@ -8,6 +8,3 @@ COPY styles.css /usr/share/nginx/html/
 
 # Expose the HTTP port
 EXPOSE 80
-
-# Start NGINX when the container runs
-CMD ["nginx", "-g", "daemon off;"]
