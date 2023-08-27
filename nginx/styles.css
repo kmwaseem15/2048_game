@@ -82,13 +82,15 @@ h1 {
   color: #FF5722;
 }
 
-/* Added styles for score container and restart button */
 .score-container {
   display: flex;
   justify-content: flex-start; /* Aligned to the left */
   align-items: center;
   margin-top: 5px;
   color: #FF5722; /* Added color to score container */
+  border: 2px solid #FF5722; /* Added border */
+  background-color: #f5f3ea; /* Added background color */
+  padding: 8px; /* Added padding for spacing */
 }
 
 .score-title {
@@ -102,7 +104,7 @@ h1 {
 }
 
 #restart-button {
-  background-color: red; /* Changed button color to red */
+  background-color: #C82333; /* Changed button color to red */
   color: white;
   border: none;
   padding: 10px 12px; /* Reduced padding for smaller height */
