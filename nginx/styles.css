@@ -16,10 +16,10 @@ h1 {
 }
 
 .container {
-  width: 90%; /* Adjusted width for better responsiveness */
-  max-width: 600px; /* Added max-width to prevent excessive stretching */
+  width: 90%;
+  max-width: 600px;
   max-height: 90%;
-  margin: auto; /* Centering the container vertically and horizontally */
+  margin: auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -41,11 +41,14 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  max-width: 100%; /* Adjusted to fit within the container */
+  max-height: 60vh; /* Adjusted to fit within the container */
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
   margin-top: 10px;
   padding: 5px;
+  overflow: auto; /* Added to enable scrolling if needed */
 }
 
 .grid div {
