@@ -1,3 +1,5 @@
+/* Apply these changes to your existing CSS */
+
 body {
   margin: 0;
   display: flex;
@@ -27,7 +29,7 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); /* Dynamic columns */
+  grid-template-columns: repeat(4, 1fr); /* 4x4 grid */
   gap: 10px;
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
