@@ -27,29 +27,26 @@ body {
   overflow: hidden; /* Hide overflow to prevent scrolling */
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4x4 grid */
-  gap: 5px; /* Adjusted gap */
-  background-color: #BBADA0;
-  border: 7px solid #BBADA0;
-  border-radius: 10px;
-  margin-top: 0; /* Removed margin-top */
-  padding: 5px;
-  overflow: hidden; /* Hide overflow to prevent scrolling */
-}
-
 .score-container {
-  width: 100%; /* Set width to 100% */
-  display: flex;
+  display: flex; /* Set to flex to align items in the same line */
   justify-content: space-between;
   align-items: center;
   margin-bottom: 5px; /* Adjusted margin-bottom */
 }
 
+#score {
+  font-size: 18px; /* Adjusted font size */
+}
+
 #restart-button {
   padding: 8px 16px; /* Adjusted padding */
   font-size: 18px; /* Adjusted font size */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
   margin-bottom: 5px; /* Adjusted margin-bottom */
 }
 
