@@ -1,53 +1,11 @@
-/* Apply these changes to your existing CSS */
-
 body {
-  margin: 0;
+  background-color: #f5f3ea;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: "Clear Sans", "Helvetica Neue", sans-serif;
-  background-color: #f5f3ea;
-  overflow: hidden; /* Hide overflow to remove scroll bars */
+  margin: 0;
   height: 100vh;
-}
-
-.container {
-  width: 90%; /* Adjusted width */
-  max-width: 400px; /* Adjusted max-width */
-  max-height: 95vh; /* Adjusted max-height */
-  margin: auto;
-  padding: 10px; /* Adjusted padding */
-  background-color: #fff;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: hidden; /* Hide overflow to prevent scrolling */
-}
-
-.score-container {
-  display: flex; /* Set to flex to align items in the same line */
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 5px; /* Adjusted margin-bottom */
-}
-
-#score {
-  font-size: 18px; /* Adjusted font size */
-}
-
-#restart-button {
-  padding: 8px 16px; /* Adjusted padding */
-  font-size: 18px; /* Adjusted font size */
-  background-color: #4CAF50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  margin-bottom: 5px; /* Adjusted margin-bottom */
 }
 
 h1 {
@@ -57,11 +15,38 @@ h1 {
   margin: 10px 0;
 }
 
+.container {
+  width: 90%;
+  max-width: 600px;
+  max-height: 90%;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px; /* Reduced margin for better spacing */
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 100%;
+  background-color: #BBADA0;
+  border: 7px solid #BBADA0;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .grid div {
@@ -86,9 +71,22 @@ h1 {
 }
 
 .result-text {
-  font-size: 15px;
+  font-size: 18px;
   color: #4CAF50;
+  margin-top: 20px;
   display: block;
+}
+
+.highlight {
+  color: #FF5722;
+}
+
+/* Added styles for score container and restart button */
+.score-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; /* Increased margin for better spacing */
 }
 
 .score-title {
@@ -101,13 +99,19 @@ h1 {
   font-size: 25px;
 }
 
-.result-text {
-  font-size: 18px;
-  color: #4CAF50;
-  margin-top: 20px;
-  display: block;
+#restart-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease; /* Added a smooth transition */
 }
 
-.highlight {
-  color: #FF5722;
+#restart-button:hover {
+  background-color: #45a049; /* Darker color on hover */
 }
