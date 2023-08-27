@@ -42,13 +42,11 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   max-width: 100%; /* Adjusted to fit within the container */
-  max-height: 60vh; /* Adjusted to fit within the container */
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
   margin-top: 10px;
   padding: 5px;
-  overflow: auto; /* Added to enable scrolling if needed */
 }
 
 .grid div {
