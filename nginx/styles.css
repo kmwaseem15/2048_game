@@ -6,7 +6,6 @@ body {
   font-family: "Clear Sans", "Helvetica Neue", sans-serif;
   margin: 0;
   height: 100vh;
-  overflow: hidden;
 }
 
 h1 {
@@ -17,7 +16,7 @@ h1 {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin-top: auto; /* This will push the container to the bottom of the screen */
   margin-bottom: auto; /* This will push the container to the top of the screen */
   padding: 20px;
@@ -40,10 +39,10 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  max-width: 100%; /* Add a maximum width */
-  height: 456px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  width: 100%; /* Add a maximum width */
+  height: auto;
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
@@ -55,14 +54,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   margin: 5px;
   border-radius: 10px;
   background-color: #EEE4DA;
   color: #776E65;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 24px;
   line-height: 1.4;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
