@@ -42,7 +42,7 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   max-width: 100%;
-  max-height: 50%;
+  max-height: 40%; /* Reduced max-height */
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
@@ -54,14 +54,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 70px; /* Reduced width */
+  height: 70px; /* Reduced height */
   margin: 5px;
   border-radius: 10px;
   background-color: #EEE4DA;
   color: #776E65;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 22px; /* Reduced font size */
   line-height: 1;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -85,9 +85,10 @@ h1 {
 /* Added styles for score container and restart button */
 .score-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* Aligned to the left */
   align-items: center;
-  margin-top: 5px; /* Increased margin for better spacing */
+  margin-top: 5px;
+  color: #FF5722; /* Added color to score container */
 }
 
 .score-title {
@@ -101,18 +102,17 @@ h1 {
 }
 
 #restart-button {
-  background-color: #4CAF50;
+  background-color: red; /* Changed button color to red */
   color: white;
   border: none;
-  padding: 12px 12px;
+  padding: 10px 12px; /* Reduced padding for smaller height */
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 18px; /* Reduced font size */
   font-weight: bold;
   cursor: pointer;
-  margin-bottom: 5px;
-  transition: background-color 0.3s ease; /* Added a smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 #restart-button:hover {
-  background-color: #45a049; /* Darker color on hover */
+  background-color: #9C0D00; /* Darker red color on hover */
 }
