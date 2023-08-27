@@ -69,11 +69,11 @@ h1 {
 
 .result-container {
   text-align: center;
-  margin-bottom: 20px;
+  margin: auto;
 }
 
 .result-text {
-  font-size: 18px;
+  font-size: 15px;
   color: #4CAF50;
   display: block;
 }
@@ -82,17 +82,17 @@ h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin: auto;
 }
 
 .score-title {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 #score {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #restart-button {
