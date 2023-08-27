@@ -16,8 +16,7 @@ h1 {
 }
 
 .container {
-  width: 90%;
-  max-width: 600px;
+  width: 40%;
   max-height: 90%;
   margin: auto;
   padding: 20px;
@@ -74,7 +73,7 @@ h1 {
 .result-text {
   font-size: 18px;
   color: #4CAF50;
-  margin-top: 10px;
+  margin-top: 5px;
   display: block;
 }
 
@@ -89,11 +88,7 @@ h1 {
   align-items: center;
   margin-top: 5px;
   color: #FF5722; /* Added color to score container */
-  border: 2px solid #FF5722; /* Added border */
-  background-color: #FFFFFF; /* Changed background color to white */
-  padding: 8px; /* Added padding for spacing */
-  border-radius: 5px; /* Added border radius */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  padding: 5px; /* Added padding for spacing */
 }
 
 .score-title {
@@ -110,12 +105,12 @@ h1 {
   background-color: #C82333; /* Changed button color to red */
   color: white;
   border: none;
-  padding: 10px 12px; /* Reduced padding for smaller height */
-  border-radius: 5px;
+  padding: 5px 5px; /* Reduced padding for smaller height */
+  border-radius: 2px;
   font-size: 18px; /* Reduced font size */
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.1s ease;
 }
 
 #restart-button:hover {
