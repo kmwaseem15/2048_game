@@ -16,10 +16,10 @@ h1 {
 }
 
 .container {
-  width: 500;
+  width: 500px; /* Added 'px' after the width value */
   max-height: 90%;
-  margin-top: auto; /* This will push the container to the bottom of the screen */
-  margin-bottom: auto; /* This will push the container to the top of the screen */
+  margin-top: auto;
+  margin-bottom: auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -27,22 +27,24 @@ h1 {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between; /* Changed 'center' to 'space-between' */
   align-items: center;
 }
+
 
 .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 10px; /* Reduced margin for better spacing */
 }
 
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
-  width: 456px; /* Add a maximum width */
+  width: 100%; /* Changed width value to 100% */
+  max-width: 456px; /* Added max-width for responsiveness */
   height: 456px;
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
@@ -79,10 +81,11 @@ h1 {
 }
 
 .score-container {
+  width: 100%; /* Set width to 100% */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto;
+  margin-bottom: 10px; /* Reduced margin for better spacing */
 }
 
 .score-title {
@@ -104,7 +107,6 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -118,4 +120,3 @@ h1 {
 .highlight {
   color: #FF5722;
 }
-
