@@ -39,10 +39,10 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
-  width: 100%; /* Add a maximum width */
-  height: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  width: 456px; /* Add a maximum width */
+  height: 456px;
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
