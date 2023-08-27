@@ -12,11 +12,11 @@ body {
 }
 
 .container {
-  width: 100%; /* Set width to 100% */
-  max-width: 600px;
-  max-height: 100vh; /* Adjusted max-height */
+  width: 95%; /* Adjusted width to 95% */
+  max-width: 450px; /* Adjusted max-width */
+  max-height: 95vh; /* Adjusted max-height */
   margin: auto;
-  padding: 20px;
+  padding: 10px; /* Adjusted padding */
   background-color: #fff;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -30,11 +30,11 @@ body {
 .grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* 4x4 grid */
-  gap: 10px;
+  gap: 5px; /* Adjusted gap */
   background-color: #BBADA0;
   border: 7px solid #BBADA0;
   border-radius: 10px;
-  margin-top: 10px;
+  margin-top: 5px; /* Adjusted margin-top */
   padding: 5px;
   overflow: hidden; /* Hide overflow to prevent scrolling */
 }
